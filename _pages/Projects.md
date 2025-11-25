@@ -5,15 +5,43 @@ permalink: /Projects/
 author_profile: true
 ---
 
+## TeleAvatar: Dual-Arm Wheeled Lifting Teleoperation System
+
+**Robotics Engineer | Jul 2025 - Present**
+
+- Developed comprehensive motor drive system based on SocketCAN, providing ROS interface for high-level control; robot comprises Robstride actuators and lifting servo motors with 6-channel CAN bus architecture (8 motors per arm including gripper, 3 motors for omnidirectional chassis)
+- Engineered WebSocket-based upper-level control software enabling real-time robot monitoring and teleoperation with low-latency communication
+- Implemented state machine management system for coordinating robot behaviors and ensuring safe transitions between operational modes
+- Contributed to system integration including sensor data processing, motor synchronization, and teleoperation interface development (excluding core kinematics control algorithms)
+- Designed fault detection and recovery mechanisms ensuring robust operation during complex manipulation tasks
+
+## XiaoMo Mobile Dual-Arm Robot Product
+
+**Lead Developer (Solo Development) | Oct 2024 - Jun 2025**
+
+- Independently led development of complete mobile dual-arm robot featuring differential drive chassis with Mid360 LiDAR, autonomous navigation, SLAM mapping, vision-based dual-arm grasping, and voice interaction
+- Implemented full software stack including: chassis driver and control algorithms, autonomous navigation, dual 7-DOF arm drivers and control, web server for status management and robot control, map visualization, JoyCon-based teleoperation, power management module, and app backend integration
+- Developed electronic skin tactile sensing system with custom drivers and perception algorithms for enhanced human-robot interaction
+- Built comprehensive management platform integrating all subsystems; collaborated with external teams for mechanical design and app frontend development, utilizing open-source algorithms where applicable
+
+## Hand Pose Estimation System with ToF Sensor Array
+
+**Developer | Jan 2025 - Apr 2025**
+
+- Developed hand pose capture system using ST VL53L9 prototype ToF sensors (54×45 array radar), converting sensor data to ROS-compatible point clouds with coordinate system calibration and transformation
+- Integrated three sensors at optimized angles to capture complete hand point clouds, achieving comprehensive coverage of finger and palm regions
+- Trained neural network using motion capture 21-joint ground truth data with keypoint-based loss function and gradient descent optimization; deployed ManoTorch model for hand skeleton reconstruction and joint pose estimation from point cloud input
+
 <div style="display: flex; width: 100%;">
   <!-- 左侧文字内容和标题 -->
   <div style="flex: 3; padding-right: 20px;">
-    <h2>Dexterous Hand Embedded Development</h2>  <!-- 添加的标题 -->
+    <h2>Dexterous Hand and Three-Finger Gripper Development</h2>  <!-- 添加的标题 -->
+    <p><strong>Developer | Jul 2024 - Jun 2025</strong></p>
     <ul>
-      <li>Developed motor drive and motion control for a dexterous hand system using an automotive-grade YTM microcontroller. This involved implementing precise control over current, speed, and position for miniature brushless motors, tailored to the specific needs of robotic applications.</li>
-      <li>Implemented cascaded PID control for fingers and palms, improving control accuracy and responsiveness, which are critical for achieving fine motor skills in robotic hands.</li>
-      <li>Led the development of monitoring and protection systems to prevent issues including overcurrent, overheating, and motor stalling, ensuring the system operates reliably under various conditions.</li>
-      <li>Designed user-friendly interface controls and developed PC communication libraries, facilitating the interaction with the dexterous hand and the integration with other robotic systems.</li>
+      <li>Developed motor drive and motion control for dexterous hand system using automotive-grade YTM microcontroller with precise current, speed, and position control for miniature brushless motors</li>
+      <li>Extended drive board design to develop three-finger gripper and successfully integrated into self-developed 7-DOF arm teleoperation system for robust grasping applications</li>
+      <li>Implemented cascaded PID control for fingers and palms, achieving fine motor control critical for delicate manipulation tasks</li>
+      <li>Designed comprehensive monitoring and protection systems preventing overcurrent, overheating, and motor stalling; developed user-friendly interfaces and PC communication libraries for seamless integration</li>
     </ul>
   </div>
   <div style="flex: 2; display: flex; align-items: center;">
