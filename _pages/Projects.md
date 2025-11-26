@@ -7,30 +7,57 @@ author_profile: true
 
 ## TeleAvatar: Dual-Arm Wheeled Lifting Teleoperation System
 
-**Robotics Engineer | Jul 2025 - Present**
-
-- Developed comprehensive motor drive system based on SocketCAN, providing ROS interface for high-level control; robot comprises Robstride actuators and lifting servo motors with 6-channel CAN bus architecture (8 motors per arm including gripper, 3 motors for omnidirectional chassis)
-- Engineered WebSocket-based upper-level control software enabling real-time robot monitoring and teleoperation with low-latency communication
-- Implemented state machine management system for coordinating robot behaviors and ensuring safe transitions between operational modes
-- Contributed to system integration including sensor data processing, motor synchronization, and teleoperation interface development (excluding core kinematics control algorithms)
-- Designed fault detection and recovery mechanisms ensuring robust operation during complex manipulation tasks
+<div style="display: flex; width: 100%;">
+  <div style="flex: 3; padding-right: 20px;">
+    <p><strong>Robotics Engineer | Jul 2025 - Present</strong></p>
+    <ul>
+      <li>Developed comprehensive motor drive system based on SocketCAN, providing ROS interface for high-level control; robot comprises Robstride actuators and lifting servo motors with 6-channel CAN bus architecture (8 motors per arm including gripper, 3 motors for omnidirectional chassis)</li>
+      <li>Engineered WebSocket-based upper-level control software enabling real-time robot monitoring and teleoperation with low-latency communication</li>
+      <li>Implemented state machine management system for coordinating robot behaviors and ensuring safe transitions between operational modes</li>
+      <li>Contributed to system integration including sensor data processing, motor synchronization, and teleoperation interface development (excluding core kinematics control algorithms)</li>
+      <li>Designed fault detection and recovery mechanisms ensuring robust operation during complex manipulation tasks</li>
+    </ul>
+  </div>
+  <div style="flex: 2; display: flex; align-items: center;">
+    <!-- 如果有图片或视频,在这里添加 -->
+    <!-- <img src="/YD.Huang/files/teleavatar.jpg" style="width: 100%; height: auto;"> -->
+  </div>
+</div>
 
 ## XiaoMo Mobile Dual-Arm Robot Product
 
-**Lead Developer (Solo Development) | Oct 2024 - Jun 2025**
-
-- Independently led development of complete mobile dual-arm robot featuring differential drive chassis with Mid360 LiDAR, autonomous navigation, SLAM mapping, vision-based dual-arm grasping, and voice interaction
-- Implemented full software stack including: chassis driver and control algorithms, autonomous navigation, dual 7-DOF arm drivers and control, web server for status management and robot control, map visualization, JoyCon-based teleoperation, power management module, and app backend integration
-- Developed electronic skin tactile sensing system with custom drivers and perception algorithms for enhanced human-robot interaction
-- Built comprehensive management platform integrating all subsystems; collaborated with external teams for mechanical design and app frontend development, utilizing open-source algorithms where applicable
+<div style="display: flex; width: 100%;">
+  <div style="flex: 3; padding-right: 20px;">
+    <p><strong>Lead Developer (Solo Development) | Oct 2024 - Jun 2025</strong></p>
+    <ul>
+      <li>Independently led development of complete mobile dual-arm robot featuring differential drive chassis with Mid360 LiDAR, autonomous navigation, SLAM mapping, vision-based dual-arm grasping, and voice interaction</li>
+      <li>Implemented full software stack including: chassis driver and control algorithms, autonomous navigation, dual 7-DOF arm drivers and control, web server for status management and robot control, map visualization, JoyCon-based teleoperation, power management module, and app backend integration</li>
+      <li>Developed electronic skin tactile sensing system with custom drivers and perception algorithms for enhanced human-robot interaction</li>
+      <li>Built comprehensive management platform integrating all subsystems; collaborated with external teams for mechanical design and app frontend development, utilizing open-source algorithms where applicable</li>
+    </ul>
+  </div>
+  <div style="flex: 2; display: flex; align-items: center;">
+    <!-- 如果有图片或视频,在这里添加 -->
+    <!-- <img src="/YD.Huang/files/xiaomo.jpg" style="width: 100%; height: auto;"> -->
+  </div>
+</div>
 
 ## Hand Pose Estimation System with ToF Sensor Array
 
-**Developer | Jan 2025 - Apr 2025**
-
-- Developed hand pose capture system using ST VL53L9 prototype ToF sensors (54×45 array radar), converting sensor data to ROS-compatible point clouds with coordinate system calibration and transformation
-- Integrated three sensors at optimized angles to capture complete hand point clouds, achieving comprehensive coverage of finger and palm regions
-- Trained neural network using motion capture 21-joint ground truth data with keypoint-based loss function and gradient descent optimization; deployed ManoTorch model for hand skeleton reconstruction and joint pose estimation from point cloud input
+<div style="display: flex; width: 100%;">
+  <div style="flex: 3; padding-right: 20px;">
+    <p><strong>Developer | Jan 2025 - Apr 2025</strong></p>
+    <ul>
+      <li>Developed hand pose capture system using ST VL53L9 prototype ToF sensors (54×45 array radar), converting sensor data to ROS-compatible point clouds with coordinate system calibration and transformation</li>
+      <li>Integrated three sensors at optimized angles to capture complete hand point clouds, achieving comprehensive coverage of finger and palm regions</li>
+      <li>Trained neural network using motion capture 21-joint ground truth data with keypoint-based loss function and gradient descent optimization; deployed ManoTorch model for hand skeleton reconstruction and joint pose estimation from point cloud input</li>
+    </ul>
+  </div>
+  <div style="flex: 2; display: flex; align-items: center;">
+    <!-- 如果有图片或视频,在这里添加 -->
+    <!-- <img src="/YD.Huang/files/hand_pose.jpg" style="width: 100%; height: auto;"> -->
+  </div>
+</div>
 
 <div style="display: flex; width: 100%;">
   <!-- 左侧文字内容和标题 -->
