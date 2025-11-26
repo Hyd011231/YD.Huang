@@ -18,9 +18,15 @@ author_profile: true
       <li>Designed fault detection and recovery mechanisms ensuring robust operation during complex manipulation tasks</li>
     </ul>
   </div>
-  <div style="flex: 2; display: flex; align-items: center;">
-    <!-- 如果有图片或视频,在这里添加 -->
-    <!-- <img src="/YD.Huang/files/teleavatar.jpg" style="width: 100%; height: auto;"> -->
+  <div style="flex: 2; display: flex; flex-direction: column; align-items: center;">
+    <video style="width: 100%; max-height: 200px; margin-bottom: 10px;" controls>
+      <source src="/YD.Huang/files/Tele.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video style="width: 100%; max-height: 200px;" controls>
+      <source src="/YD.Huang/files/Tele2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 </div>
 
@@ -36,9 +42,16 @@ author_profile: true
       <li>Built comprehensive management platform integrating all subsystems; collaborated with external teams for mechanical design and app frontend development, utilizing open-source algorithms where applicable</li>
     </ul>
   </div>
-  <div style="flex: 2; display: flex; align-items: center;">
-    <!-- 如果有图片或视频,在这里添加 -->
-    <!-- <img src="/YD.Huang/files/xiaomo.jpg" style="width: 100%; height: auto;"> -->
+  <div style="flex: 2; display: flex; flex-direction: column; align-items: center;">
+    <img src="/YD.Huang/files/xiaomo.jpg" style="width: 100%; height: auto; margin-bottom: 10px;">
+    <video style="width: 100%; max-height: 150px; margin-bottom: 10px;" controls>
+      <source src="/YD.Huang/files/xiaomo1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video style="width: 100%; max-height: 150px;" controls>
+      <source src="/YD.Huang/files/xiaomo2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 </div>
 
@@ -54,15 +67,16 @@ author_profile: true
     </ul>
   </div>
   <div style="flex: 2; display: flex; align-items: center;">
-    <!-- 如果有图片或视频,在这里添加 -->
-    <!-- <img src="/YD.Huang/files/hand_pose.jpg" style="width: 100%; height: auto;"> -->
+    <video style="width: 100%; height: auto;" controls>
+      <source src="/YD.Huang/files/tof1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 </div>
 
 <div style="display: flex; width: 100%;">
-  <!-- 左侧文字内容和标题 -->
   <div style="flex: 3; padding-right: 20px;">
-    <h2>Dexterous Hand and Three-Finger Gripper Development</h2>  <!-- 添加的标题 -->
+    <h2>Dexterous Hand and Three-Finger Gripper Development</h2>
     <p><strong>Developer | Jul 2024 - Jun 2025</strong></p>
     <ul>
       <li>Developed motor drive and motion control for dexterous hand system using automotive-grade YTM microcontroller with precise current, speed, and position control for miniature brushless motors</li>
@@ -71,19 +85,19 @@ author_profile: true
       <li>Designed comprehensive monitoring and protection systems preventing overcurrent, overheating, and motor stalling; developed user-friendly interfaces and PC communication libraries for seamless integration</li>
     </ul>
   </div>
-  <div style="flex: 2; display: flex; align-items: center;">
-    <div style="flex: 1; margin-right: 10px;">
-      <video style="width: 100%; max-height: 100%;" controls>
-        <source src="/YD.Huang/files/hand1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-    <div style="flex: 1;">
-      <video style="width: 100%; max-height: 100%;" controls>
-        <source src="/YD.Huang/files/hand2.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
+  <div style="flex: 2; display: flex; flex-direction: column; align-items: center;">
+    <video style="width: 100%; max-height: 150px; margin-bottom: 10px;" controls>
+      <source src="/YD.Huang/files/hand1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video style="width: 100%; max-height: 150px; margin-bottom: 10px;" controls>
+      <source src="/YD.Huang/files/hand2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video style="width: 100%; max-height: 150px;" controls>
+      <source src="/YD.Huang/files/hand3.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 </div>
 
